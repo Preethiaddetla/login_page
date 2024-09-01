@@ -1,0 +1,162 @@
+.background{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image:  linear-gradient( 130deg, rgba(184, 32, 32, 0.736), rgba(0, 0, 0, 0.762), rgba(50, 182, 222, 0.692));
+}
+.text_div{
+    height: 35rem;
+    width: 35rem;
+    
+    margin-left: 7rem;
+    padding-left: 4rem;
+    margin-top: 8rem;
+    
+}
+.login_div{
+    height: 25rem;
+    width: 25rem;
+    
+    
+   margin-left: 8rem;
+    margin-top: 9rem;
+}
+.hello{
+    font-size: 5rem;
+    display: inline-block;
+    color: aliceblue;
+}
+.preethi{
+    font-size: 4rem;
+    display: inline;
+    color: aliceblue;
+}
+.login{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.username{
+    margin-left: 2.5rem;
+    color: aliceblue;
+}
+#username_input{
+    margin-left: 2rem;
+    height: 1.3rem;
+    width: 15rem;
+    background: none;
+    border: 2px solid aliceblue;
+}
+.pass{
+    margin-left: 2.5rem;
+    color: aliceblue;
+}
+#password_input{
+    margin-left: 2rem;
+    height: 1.3rem;
+    width: 15rem;
+    background: none;
+    border: 2px solid aliceblue;
+}
+.login_button{
+    margin-left: 7rem;
+    height: 2.5rem;
+    width: 5rem;
+    background: none;
+    color: aliceblue;
+    font-size: 1.3rem;
+    border: 2px solid aliceblue;
+}
+::placeholder{
+    color: aliceblue;
+}
+#result{
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+input, select, textarea{
+    color: aliceblue;
+}
+
+textarea:focus, input:focus {
+    color: aliceblue;
+}
+@media (max-width: 600px) {
+    .background{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr ;
+        background-image:  linear-gradient( 130deg, rgba(184, 32, 32, 0.736), rgba(0, 0, 0, 0.762), rgba(50, 182, 222, 0.692));
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .text_div{
+        height: 10rem;
+        width: 20rem;
+        
+        margin-left: 5rem;
+        padding-left: 2rem;
+        margin-top: 2rem;
+        
+    }
+    .login_div{
+        height: 20rem;
+        width: 20rem;
+        
+        
+       margin-left: 5rem;
+        margin-top: 4rem;
+    }
+    .hello{
+        font-size: 2rem;
+        display: inline-block;
+        color: aliceblue;
+        margin-left: -2rem;
+    }
+    .preethi{
+        font-size: 2rem;
+        display: inline;
+        color: aliceblue;
+        margin-left: -2rem;
+    }
+    .login{
+        font-size: 2rem;
+        color: aliceblue;
+    }
+    .username{
+        margin-left: 2rem;
+        color: aliceblue;
+    }
+    #username_input{
+        margin-left: 2rem;
+        height: 1.3rem;
+        width: 10rem;
+        background: none;
+        border: 2px solid aliceblue;
+    }
+    .pass{
+        margin-left: 2rem;
+        color: aliceblue;
+    }
+    #password_input{
+        margin-left: 2rem;
+        height: 1.3rem;
+        width: 10rem;
+        background: none;
+        border: 2px solid aliceblue;
+    }
+    .login_button{
+        margin-left: 5rem;
+        height: 2rem;
+        width: 3.5rem;
+        background: none;
+        color: aliceblue;
+        font-size: 0.8rem;
+        border: 2px solid aliceblue;
+    }
+    #result{
+        color: aliceblue;
+        font-size: 1rem;
+    }
+}
